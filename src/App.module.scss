@@ -1,0 +1,25 @@
+.boardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+
+.message {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 24px;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+}

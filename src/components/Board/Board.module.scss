@@ -1,0 +1,23 @@
+.container {
+    border: solid 8px red;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgb(190, 188, 188);
+    box-shadow: 2px 2px 2px rgb(94, 94, 94);
+}
+
+@mixin row {
+    display: flex;
+    gap: 4px;
+}
+
+
+.row {
+    @include row;
+    margin-bottom: 4px;
+}
+
+.row:last-child {
+    @include row;
+    margin-bottom: 0;
+}
